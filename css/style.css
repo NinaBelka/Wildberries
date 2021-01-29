@@ -365,7 +365,10 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .slide-1 {
+
+  .slide-1,
+  .slide-2,
+  .slide-3 {
     background-size: cover;
   }
 
