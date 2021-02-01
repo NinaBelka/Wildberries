@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -45,6 +46,10 @@ body {
   line-height: 20px;
   color: #FFFFFF;
   cursor: pointer;
+}
+
+.button:hover {
+  background: #064EB5;
 }
 
 .button-icon,
@@ -135,7 +140,12 @@ body {
 .slider-button {
   background-color: transparent;
   border: none;
+  opacity: 0.5;
   cursor: pointer;
+}
+
+.slider-button:hover {
+  opacity: 1;
 }
 
 /* Cards */
@@ -361,6 +371,9 @@ body {
 
 .pay-image {
   vertical-align: middle;
+}
+
+.pay-image:not(:last-child) {
   margin-right: 25px;
 }
 
